@@ -26,10 +26,21 @@
     background: #454545;
     height: auto;
     max-width: auto;
-  }  
+  }
   .gallery-card img {
     border: 0.7rem solid #6f6f6f;
   }
-  /*RESPONSIVE GALLERY*/
- 
+
+  /*RESPONSIVE ABOUT*/
+
+  .about {
+    background: #6f6f6f;
+    align-items: center;
+  }
+  .about-img img {
+    border: 1rem solid #454545;
+    border-radius: 50%;
+    margin-top: 3rem;
+  }
 }
+

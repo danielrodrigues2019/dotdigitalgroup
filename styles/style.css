@@ -32,7 +32,6 @@ body {
 }
 
 /*GALLERY*/
-
 .gallery {
   background: #454545;
   height: auto;
@@ -66,4 +65,50 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
+}
+
+/*ABOUT*/
+.about {
+  background: #6f6f6f;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.about-img img {
+  border: 1.0rem solid #313131;
+  border-radius: 100%;  
+  margin: 4rem 4rem;
+}
+.about-text h2{
+  font-size: 3rem;
+  font-weight: 700;  
+  margin-top: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about-text p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.about-text p:nth-child(3) {
+  font-weight: bold;
+}
+.about-text p:nth-child(4) {
+  font-style: italic;
+}
+
+footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #454545;
+}
+footer h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
 }
