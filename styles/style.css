@@ -26,29 +26,44 @@ body {
   text-transform: uppercase;
 }
 .header p {
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   font-weight: 700;
   color: #2d3b09;
 }
 
-@media (max-width: 760px) {
-  .header {
-    height: 15rem;
-    width: 100%;
-    background: url("../images/banner.png") no-repeat cover;
-  }
-   .header .header-content {
-    text-align: center;
-    width: 100%;
-    padding: 0.5rem 0 0.5rem;
-    background: #454545
-  } 
-  .header h1{
-    color: #fff;
-    font-size: 2rem;
-  }
-  .header p{
-    color: #fff;
-    font-size: 1.1rem; 
-  }
+/*GALLERY*/
+
+.gallery {
+  background: #454545;
+  height: auto;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 25rem;
+  margin: 5rem 0 5rem;
+}
+.gallery-card img {
+  border: 0.7rem solid #6f6f6f;
+}
+.gallery h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.gallery p {
+  margin-top: 1.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
 }

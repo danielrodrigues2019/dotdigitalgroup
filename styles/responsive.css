@@ -1,0 +1,35 @@
+@media (max-width: 760px) {
+  /*RESPONSIVE HEADER*/
+  .header {
+    height: 20rem;
+    width: 100%;
+    align-items: center;
+    background: url("../images/banner.png") no-repeat cover;
+  }
+  .header .header-content {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem;
+    background: #454545;
+  }
+  .header h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .header p {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  /*RESPONSIVE GALLERY*/
+  .gallery {
+    background: #454545;
+    height: auto;
+    max-width: auto;
+  }  
+  .gallery-card img {
+    border: 0.7rem solid #6f6f6f;
+  }
+  /*RESPONSIVE GALLERY*/
+ 
+}
